@@ -1,0 +1,28 @@
+@import "foundation";
+
+body {
+  > header, > section, > footer {
+    @include grid-row();
+  }
+}
+
+header > h1 {
+  @include grid-column(12);
+}
+
+footer > p {
+  @include grid-column(12);
+  text-align: center;
+}
+
+.our-mission {
+  @include grid-column(6);
+}
+
+.our-projects {
+  @include grid-column(6);
+}
+
+.news {
+  @include grid-column(12);
+}

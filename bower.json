@@ -1,0 +1,14 @@
+{
+  "name": "gaodp-dot-org",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gaodp/gaodp-dot-org",
+  "authors": [
+    "Matt Farmer <matt@frmr.me>"
+  ],
+  "dependencies": {
+    "foundation": "5.2.1"
+  },
+  "description": "The GAODP homepage.",
+  "license": "Apache 2",
+  "private": true
+}
